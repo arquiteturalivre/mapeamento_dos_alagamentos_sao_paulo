@@ -28,26 +28,3 @@ saptialite_gui alagamentos.sqlite
 ```
 
 Maiores informações de importação e sobre o uso da ferramenta gráfica podem ser consultadas no tutorial [Importando e exportando Shapefiles](http://www.gaia-gis.it/spatialite-2.4.0-4/spatialite-cookbook/html/impexp.html)
-
-
-
- Depois do banco de dados criado, criar uma tabela para então podermos importar os dados.
-
- 
-```sqlite
-CREATE TABLE
-IF NOT EXISTS alagamentos (
-    data date,
-    local text,
-    referencia text,
-    sentido text,
-    inicio datetime,
-    fim datetime,
-    situacao text,
-    subprefeitura text
-);
-```
-
-
-
-
