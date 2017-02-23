@@ -28,3 +28,14 @@ saptialite_gui alagamentos.sqlite
 ```
 
 Maiores informações de importação e sobre o uso da ferramenta gráfica podem ser consultadas no tutorial [Importando e exportando Shapefiles](http://www.gaia-gis.it/spatialite-2.4.0-4/spatialite-cookbook/html/impexp.html)
+
+## Alterar o tipo de dados date para s campos de Date e DateTime
+
+TODO
+
+## Estudo preliminar agrupando os dadospor subprefeitura
+
+Uma das informações que já está presente nos dados recebidos é a sigla da subprefeitura onde ocorreu o registro de alagamentos.
+Como resultado preliminar vamos concentrar esses dados e georeferencia-los com base no shapefile das subprefeituras, chamadas agora de prefeituras regionais, obtido na [Geosampa](http://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx)
+
+
