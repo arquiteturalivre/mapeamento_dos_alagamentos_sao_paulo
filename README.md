@@ -19,6 +19,18 @@ O primeiro passo portanto seria criar um banco de dados ...
 saptialite alagamentos.sqlite
 ```
 
+## Importanto os dados CSV para a tabela alagamentos no Spatialite
+
+Para importar os dados CSV para o banco de dados Spatialite vamos nos utilizar da ferramenta gráfica do Spatialite, atravéz da linha de comandao
+
+```bash
+saptialite_gui alagamentos.sqlite
+```
+
+Maiores informações de importação e sobre o uso da ferramenta gráfica podem ser consultadas no tutorial [Importando e exportando Shapefiles](http://www.gaia-gis.it/spatialite-2.4.0-4/spatialite-cookbook/html/impexp.html)
+
+
+
  Depois do banco de dados criado, criar uma tabela para então podermos importar os dados.
 
  
@@ -35,3 +47,7 @@ IF NOT EXISTS alagamentos (
     subprefeitura text
 );
 ```
+
+
+
+
